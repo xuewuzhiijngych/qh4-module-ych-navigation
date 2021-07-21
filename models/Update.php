@@ -57,9 +57,6 @@ class Update extends NavigationModel
      */
     public function run()
     {
-        // 查询的字段
-        $fields = ['id', 'name', 'url', 'sort', 'img', 'status'];
-
         $db = $this->external->getDb();
         $table_name = $this->external->TableName();
 

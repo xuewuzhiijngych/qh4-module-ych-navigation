@@ -20,7 +20,7 @@ trait TraitNavigationController
 {
 
     /**
-     * @return ExtSetting
+     * @return ExtNavigation
      */
     public function ext_navigation()
     {

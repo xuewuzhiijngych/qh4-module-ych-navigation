@@ -21,7 +21,7 @@ class HpNavigation
         if (!$id) {
             return (new self)->RE('未传递 id 参数！');
         }
-        
+
         if ($external === null) {
             $external = new ExtNavigation();
         }
