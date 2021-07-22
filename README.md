@@ -53,6 +53,7 @@ QH4框架扩展模块-导航（金刚区）模块
 
     /**
      * 新增
+     * 必选参数：name  img  sort  status
      * @return array
      */
     public function actionCreate()
@@ -64,6 +65,7 @@ QH4框架扩展模块-导航（金刚区）模块
 
     /**
      * 更新
+     * 必选参数：id  name  img  sort  status
      * @return array
      */
     public function actionUpdate()
@@ -75,6 +77,7 @@ QH4框架扩展模块-导航（金刚区）模块
 
     /**
      * 删除
+     * 必选参数：id 
      * @return array
      */
     public function actionDelete()
